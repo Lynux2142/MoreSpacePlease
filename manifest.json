@@ -18,5 +18,8 @@
 		"scripts": ["background.js"],
 		"persistent": true
 	},
+	"icons": {
+		"256": "icon/logo.png"
+	},
 	"manifest_version": 2
 }
