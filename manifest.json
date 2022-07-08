@@ -1,6 +1,6 @@
 {
-	"name": "test",
-	"description": "add more spaces in text",
+	"name": "More Space Please",
+	"description": "add more spaces between characters, words and lines",
 	"version": "0.0.1",
 	"permissions": ["activeTab", "tabs", "storage"],
 	"content_scripts": [
