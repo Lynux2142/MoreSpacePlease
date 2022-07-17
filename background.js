@@ -37,6 +37,11 @@ browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
 			case "giveData":
 				sendResponse(items.rangeData);
 				break;
+			case "reset":
+				browser.storage.local.clear();
+				updateData(defaultData);
+				sendResponse(defaultData);
+				break;
 		}
 	});
 	return (true);

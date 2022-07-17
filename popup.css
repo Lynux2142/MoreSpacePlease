@@ -2,6 +2,11 @@ body .main {
 	width: 100%;
 }
 
-.title {
+#title {
 	text-align: center;
+	margin: 30px;
+}
+
+#button {
+	margin: 15px;
 }
