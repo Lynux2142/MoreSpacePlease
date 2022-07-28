@@ -10,16 +10,15 @@
 			"run_at": "document_start"
 		}
 	],
-	"browser_action": {
+	"action": {
 		"default_popup": "popup.html",
 		"default_title": "Add spaces"
 	},
 	"background": {
-		"scripts": ["background.js"],
-		"persistent": true
+		"service_worker": "background.js"
 	},
 	"icons": {
 		"256": "icon/logo.png"
 	},
-	"manifest_version": 2
+	"manifest_version": 3
 }
