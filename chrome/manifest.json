@@ -1,8 +1,8 @@
 {
 	"name": "More Space Please",
 	"description": "add more spaces between characters, words and lines",
-	"version": "0.0.1",
-	"permissions": ["activeTab", "tabs", "storage"],
+	"version": "0.1.0",
+	"permissions": ["storage"],
 	"content_scripts": [
 		{
 			"matches": ["<all_urls>"],
